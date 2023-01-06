@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-orange {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 18px 36px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.btn-secondary {
+    border: 1px solid #FD6E0A;
+    padding: 18px 36px;
+    font-weight: 700;
+    font-size: 15px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+/* nav common css */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+/* nav menu end */
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-position: right bottom, left;
+    background-repeat: no-repeat;
+    margin-left: 0, 100px;
+}
+
+.banner_part {
+    display: flex;
+    ;
+    margin: 0 50px 0 200px;
+    align-items: center;
+    ;
+}
+
+.banner_title {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.author_details {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.banner_text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+/* banenr part end */
+.about_part {
+    margin: 100px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    border-radius: 10px;
+}
+
+.about_head {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+.about_head h3 {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.about_head p {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about_info_section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+
+}
+
+.about_info p {
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.about_info .about_title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    
+
+}
